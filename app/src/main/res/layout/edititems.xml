@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/course"
+        android:layout_below="@+id/name"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEdit"
+        android:text="EDIT"
+        android:layout_below="@id/course"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDelete"
+        android:text="DELETE"
+        android:layout_below="@id/course"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
